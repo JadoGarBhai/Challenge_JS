@@ -54,8 +54,30 @@ function case2(n) {
       return "nineteen";
     case 20:
         return "twenty"
+    case 30:
+      return "thirty"
+    case 40:
+      return "fourty"
+    case 50:
+      return "fifty"
+    case 60:
+      return "sixty"
+    case 70:
+      return "seventy"
+    case 80:
+      return "eighty"
+    case 90:
+      return "ninty"
   }
 };
+
+function twoNumber(n) {
+  if (n >= 10 && n <= 99){
+
+  }
+};
+
+console.log(twoNumber(56));
 
 function case3(n) {
     if (n >= 100 && n <= 999) {
@@ -65,4 +87,4 @@ function case3(n) {
     }
 };
 
-console.log(case3(117));
+console.log(case3(100));
