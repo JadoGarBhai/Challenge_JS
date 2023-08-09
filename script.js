@@ -44,7 +44,7 @@ function case2(n) {
       return "fourteen";
     case 15:
       return "fifteen";
-    case 66:
+    case 16:
       return "sixteen";
     case 17:
       return "seventeen";
@@ -71,20 +71,16 @@ function case2(n) {
   }
 };
 
-function twoNumber(n) {
-  if (n >= 10 && n <= 99){
-
-  }
+function oneNumber(n) {
+  return case1(n);
 };
 
-console.log(twoNumber(56));
+console.log(oneNumber(5));
 
-function case3(n) {
-    if (n >= 100 && n <= 999) {
-        let a = n.toString();
-        let result = `${case1(parseInt(a.charAt(0)))} hundered ${case2(parseInt(a.substring(1)))}`;
-        return result;
-    }
-};
+// function twoNumber(n) {
+//   if (n >= 10 && n <= 99){
 
-console.log(case3(100));
+//   }
+// };
+
+// console.log(twoNumber(56));
