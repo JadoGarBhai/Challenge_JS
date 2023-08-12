@@ -77,10 +77,10 @@ function oneNumber(n) {
 
 console.log(oneNumber(5));
 
-// function twoNumber(n) {
-//   if (n >= 10 && n <= 99){
+function twoNumber(n) {
+  if (n >= 10 && n <= 99){
 
-//   }
-// };
+  }
+};
 
-// console.log(twoNumber(56));
+console.log(twoNumber(56));
