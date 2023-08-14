@@ -70,9 +70,9 @@ function case2(n) {
       return "ninty"
   }
 };
-
-function oneNumber(n) {
-  return case1(n);
+let screen = document.getElementById('screen').value;
+function oneNumber(screen) {
+  return case1(screen);
 };
 
 console.log(oneNumber(5));
