@@ -70,17 +70,30 @@ function case2(n) {
       return "ninty"
   }
 };
-let screen = document.getElementById('screen').value;
-function oneNumber(screen) {
-  return case1(screen);
+
+
+function oneNumber(n) {
+  return case1(n);
 };
 
-console.log(oneNumber(5));
+function calculate() {
+  let input = parseInt(document.getElementById('screen').value);
+  let answer;
 
-function twoNumber(n) {
-  if (n >= 10 && n <= 99){
-
+  try {
+      answer = oneNumber(input);
+      document.getElementById('result').value = answer;
+  } catch (error) {
+      console.log('error: ' + error);
+      document.getElementById('result').value = 'Error';
   }
 };
+// console.log(oneNumber(5));
 
-console.log(twoNumber(56));
+// function twoNumber(n) {
+//   if (n >= 10 && n <= 99){
+
+//   }
+// };
+
+// console.log(twoNumber(56));
