@@ -76,18 +76,18 @@ function oneNumber(n) {
   return case1(n);
 };
 
-function calculate() {
-  let input = parseInt(document.getElementById('screen').value);
-  let answer;
+// function calculate() {
+//   let input = parseInt(document.getElementById('screen').value);
+//   let answer;
 
-  try {
-      answer = oneNumber(input);
-      document.getElementById('result').value = answer;
-  } catch (error) {
-      console.log('error: ' + error);
-      document.getElementById('result').value = 'Error';
-  }
-};
+//   try {
+//       answer = oneNumber(input);
+//       document.getElementById('result').value = answer;
+//   } catch (error) {
+//       console.log('error: ' + error);
+//       document.getElementById('result').value = 'Error';
+//   }
+// };
 // console.log(oneNumber(5));
 
 // function twoNumber(n) {

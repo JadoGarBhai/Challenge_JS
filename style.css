@@ -3,3 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input[type="text"]{
+    width: 50%;
+    height: 20%;
+
+}
